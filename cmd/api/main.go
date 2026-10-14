@@ -11,17 +11,17 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/haryfun/task-management-service/internal/config"
-	"github.com/haryfun/task-management-service/internal/domain"
-	"github.com/haryfun/task-management-service/internal/platform/jwt"
-	"github.com/haryfun/task-management-service/internal/platform/logger"
-	"github.com/haryfun/task-management-service/internal/platform/notifier"
-	"github.com/haryfun/task-management-service/internal/platform/password"
-	"github.com/haryfun/task-management-service/internal/repository/postgres"
-	"github.com/haryfun/task-management-service/internal/transport/http/dto"
-	"github.com/haryfun/task-management-service/internal/transport/http/handler"
-	"github.com/haryfun/task-management-service/internal/transport/http/router"
-	"github.com/haryfun/task-management-service/internal/usecase"
+	"github.com/haryanapnx/trala/internal/config"
+	"github.com/haryanapnx/trala/internal/domain"
+	"github.com/haryanapnx/trala/internal/platform/jwt"
+	"github.com/haryanapnx/trala/internal/platform/logger"
+	"github.com/haryanapnx/trala/internal/platform/notifier"
+	"github.com/haryanapnx/trala/internal/platform/password"
+	"github.com/haryanapnx/trala/internal/repository/postgres"
+	"github.com/haryanapnx/trala/internal/transport/http/dto"
+	"github.com/haryanapnx/trala/internal/transport/http/handler"
+	"github.com/haryanapnx/trala/internal/transport/http/router"
+	"github.com/haryanapnx/trala/internal/usecase"
 )
 
 // @title           Task Management API

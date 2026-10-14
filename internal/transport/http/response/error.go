@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/haryfun/task-management-service/internal/domain"
+	"github.com/haryanapnx/trala/internal/domain"
 )
 
 // ErrorBody is the single, consistent error envelope for every 4xx/5xx response.

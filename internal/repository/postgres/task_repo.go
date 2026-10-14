@@ -5,8 +5,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/haryfun/task-management-service/internal/domain"
-	"github.com/haryfun/task-management-service/internal/repository/postgres/sqlc"
+	"github.com/haryanapnx/trala/internal/domain"
+	"github.com/haryanapnx/trala/internal/repository/postgres/sqlc"
 )
 
 type TaskRepository struct {

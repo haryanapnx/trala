@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/haryfun/task-management-service/internal/domain"
-	"github.com/haryfun/task-management-service/internal/transport/http/response"
+	"github.com/haryanapnx/trala/internal/domain"
+	"github.com/haryanapnx/trala/internal/transport/http/response"
 )
 
 // TokenVerifier validates an access token and returns its subject (user id).

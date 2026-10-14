@@ -3,7 +3,7 @@ package dto
 import (
 	"time"
 
-	"github.com/haryfun/task-management-service/internal/domain"
+	"github.com/haryanapnx/trala/internal/domain"
 )
 
 type CreateTaskRequest struct {

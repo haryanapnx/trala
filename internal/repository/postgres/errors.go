@@ -6,7 +6,7 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 
-	"github.com/haryfun/task-management-service/internal/domain"
+	"github.com/haryanapnx/trala/internal/domain"
 )
 
 // mapError converts driver-level errors into domain errors. Unknown errors are

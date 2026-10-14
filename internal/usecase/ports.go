@@ -3,7 +3,7 @@ package usecase
 import (
 	"context"
 
-	"github.com/haryfun/task-management-service/internal/domain"
+	"github.com/haryanapnx/trala/internal/domain"
 )
 
 // PasswordHasher hashes and verifies passwords.

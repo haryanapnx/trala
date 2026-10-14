@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/haryfun/task-management-service/internal/domain"
-	"github.com/haryfun/task-management-service/internal/model"
+	"github.com/haryanapnx/trala/internal/domain"
+	"github.com/haryanapnx/trala/internal/model"
 )
 
 func newTaskUsecaseFull() (*TaskUsecase, *fakeTaskRepo, *fakeStatusRepo, *fakeTeamRepo, *fakeIdempotencyRepo) {

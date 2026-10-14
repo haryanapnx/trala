@@ -2,7 +2,7 @@ SHELL := /bin/bash
 -include .env
 export
 
-APP_NAME       := task-management-service
+APP_NAME       := trala
 BIN_DIR        := bin
 MAIN           := ./cmd/api
 MIGRATIONS_DIR := db/migrations

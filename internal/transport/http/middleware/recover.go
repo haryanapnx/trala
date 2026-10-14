@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"github.com/haryfun/task-management-service/internal/domain"
-	"github.com/haryfun/task-management-service/internal/transport/http/response"
+	"github.com/haryanapnx/trala/internal/domain"
+	"github.com/haryanapnx/trala/internal/transport/http/response"
 )
 
 // Recover turns a panic into a 500 response in the standard error envelope. The

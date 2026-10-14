@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/haryfun/task-management-service/internal/domain"
-	"github.com/haryfun/task-management-service/internal/model"
-	"github.com/haryfun/task-management-service/internal/transport/http/dto"
-	"github.com/haryfun/task-management-service/internal/transport/http/response"
+	"github.com/haryanapnx/trala/internal/domain"
+	"github.com/haryanapnx/trala/internal/model"
+	"github.com/haryanapnx/trala/internal/transport/http/dto"
+	"github.com/haryanapnx/trala/internal/transport/http/response"
 )
 
 // AuthUsecase is the slice of the auth use case the handler needs.

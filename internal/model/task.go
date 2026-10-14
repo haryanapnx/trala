@@ -1,6 +1,6 @@
 package model
 
-import "github.com/haryfun/task-management-service/internal/domain"
+import "github.com/haryanapnx/trala/internal/domain"
 
 // CreateTaskInput is the input for creating a task.
 type CreateTaskInput struct {

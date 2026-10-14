@@ -4,7 +4,7 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/haryfun/task-management-service/internal/usecase"
+	"github.com/haryanapnx/trala/internal/usecase"
 )
 
 // Mock is a stand-in notifier that emits a structured log line instead of

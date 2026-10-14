@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/haryfun/task-management-service/internal/domain"
-	"github.com/haryfun/task-management-service/internal/model"
+	"github.com/haryanapnx/trala/internal/domain"
+	"github.com/haryanapnx/trala/internal/model"
 )
 
 type StatusUsecase struct {

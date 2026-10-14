@@ -34,7 +34,7 @@ const docTemplate = `{
                         "in": "body",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.LoginRequest"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.LoginRequest"
                         }
                     }
                 ],
@@ -42,13 +42,13 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.LoginResponse"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.LoginResponse"
                         }
                     },
                     "401": {
                         "description": "Unauthorized",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     }
                 }
@@ -73,7 +73,7 @@ const docTemplate = `{
                         "in": "body",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.RegisterRequest"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.RegisterRequest"
                         }
                     }
                 ],
@@ -81,19 +81,19 @@ const docTemplate = `{
                     "201": {
                         "description": "Created",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.UserResponse"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.UserResponse"
                         }
                     },
                     "400": {
                         "description": "Bad Request",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     },
                     "409": {
                         "description": "Conflict",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     }
                 }
@@ -117,7 +117,7 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.StatusListResponse"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.StatusListResponse"
                         }
                     }
                 }
@@ -145,7 +145,7 @@ const docTemplate = `{
                         "in": "body",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.CreateStatusRequest"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.CreateStatusRequest"
                         }
                     }
                 ],
@@ -153,19 +153,19 @@ const docTemplate = `{
                     "201": {
                         "description": "Created",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.StatusResponse"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.StatusResponse"
                         }
                     },
                     "400": {
                         "description": "Bad Request",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     },
                     "409": {
                         "description": "Conflict",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     }
                 }
@@ -202,7 +202,7 @@ const docTemplate = `{
                         "in": "body",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.UpdateStatusRequest"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.UpdateStatusRequest"
                         }
                     }
                 ],
@@ -210,19 +210,19 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.StatusResponse"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.StatusResponse"
                         }
                     },
                     "400": {
                         "description": "Bad Request",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     },
                     "404": {
                         "description": "Not Found",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     }
                 }
@@ -253,7 +253,7 @@ const docTemplate = `{
                     "409": {
                         "description": "Conflict",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     }
                 }
@@ -305,7 +305,7 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskListResponse"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskListResponse"
                         }
                     }
                 }
@@ -340,7 +340,7 @@ const docTemplate = `{
                         "in": "body",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.CreateTaskRequest"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.CreateTaskRequest"
                         }
                     }
                 ],
@@ -348,25 +348,25 @@ const docTemplate = `{
                     "201": {
                         "description": "Created",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse"
                         }
                     },
                     "400": {
                         "description": "Bad Request",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     },
                     "403": {
                         "description": "Forbidden",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     },
                     "409": {
                         "description": "Conflict",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     }
                 }
@@ -399,13 +399,13 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse"
                         }
                     },
                     "404": {
                         "description": "Not Found",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     }
                 }
@@ -440,7 +440,7 @@ const docTemplate = `{
                         "in": "body",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.UpdateTaskRequest"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.UpdateTaskRequest"
                         }
                     }
                 ],
@@ -448,19 +448,19 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse"
                         }
                     },
                     "400": {
                         "description": "Bad Request",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     },
                     "404": {
                         "description": "Not Found",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     }
                 }
@@ -491,7 +491,7 @@ const docTemplate = `{
                     "404": {
                         "description": "Not Found",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     }
                 }
@@ -528,7 +528,7 @@ const docTemplate = `{
                         "in": "body",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.AssignTaskRequest"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.AssignTaskRequest"
                         }
                     }
                 ],
@@ -536,19 +536,19 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse"
                         }
                     },
                     "403": {
                         "description": "Forbidden",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     },
                     "404": {
                         "description": "Not Found",
                         "schema": {
-                            "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody"
+                            "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody"
                         }
                     }
                 }
@@ -556,7 +556,7 @@ const docTemplate = `{
         }
     },
     "definitions": {
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.AssignTaskRequest": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.AssignTaskRequest": {
             "type": "object",
             "properties": {
                 "assignee_id": {
@@ -564,7 +564,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.CreateStatusRequest": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.CreateStatusRequest": {
             "type": "object",
             "properties": {
                 "name": {
@@ -578,7 +578,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.CreateTaskRequest": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.CreateTaskRequest": {
             "type": "object",
             "properties": {
                 "description": {
@@ -595,7 +595,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.LoginRequest": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.LoginRequest": {
             "type": "object",
             "properties": {
                 "email": {
@@ -606,7 +606,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.LoginResponse": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.LoginResponse": {
             "type": "object",
             "properties": {
                 "access_token": {
@@ -620,7 +620,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.PageMeta": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.PageMeta": {
             "type": "object",
             "properties": {
                 "limit": {
@@ -637,7 +637,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.RegisterRequest": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.RegisterRequest": {
             "type": "object",
             "properties": {
                 "email": {
@@ -651,18 +651,18 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.StatusListResponse": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.StatusListResponse": {
             "type": "object",
             "properties": {
                 "data": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.StatusResponse"
+                        "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.StatusResponse"
                     }
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.StatusResponse": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.StatusResponse": {
             "type": "object",
             "properties": {
                 "created_at": {
@@ -688,21 +688,21 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.TaskListResponse": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.TaskListResponse": {
             "type": "object",
             "properties": {
                 "data": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse"
+                        "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse"
                     }
                 },
                 "meta": {
-                    "$ref": "#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.PageMeta"
+                    "$ref": "#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.PageMeta"
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse": {
             "type": "object",
             "properties": {
                 "assignee_id": {
@@ -734,7 +734,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.UpdateStatusRequest": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.UpdateStatusRequest": {
             "type": "object",
             "properties": {
                 "name": {
@@ -748,7 +748,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.UpdateTaskRequest": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.UpdateTaskRequest": {
             "type": "object",
             "properties": {
                 "description": {
@@ -762,7 +762,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_dto.UserResponse": {
+        "github_com_haryanapnx_trala_internal_transport_http_dto.UserResponse": {
             "type": "object",
             "properties": {
                 "created_at": {
@@ -782,7 +782,7 @@ const docTemplate = `{
                 }
             }
         },
-        "github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody": {
+        "github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody": {
             "type": "object",
             "properties": {
                 "code": {

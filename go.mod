@@ -1,4 +1,4 @@
-module github.com/haryfun/task-management-service
+module github.com/haryanapnx/trala
 
 go 1.21
 

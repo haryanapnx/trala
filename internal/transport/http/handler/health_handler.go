@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/haryfun/task-management-service/internal/transport/http/response"
+	"github.com/haryanapnx/trala/internal/transport/http/response"
 )
 
 // Pinger is the minimal dependency the health handler needs, so the transport

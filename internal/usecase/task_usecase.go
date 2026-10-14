@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/haryfun/task-management-service/internal/domain"
-	"github.com/haryfun/task-management-service/internal/model"
+	"github.com/haryanapnx/trala/internal/domain"
+	"github.com/haryanapnx/trala/internal/model"
 )
 
 // idempotencyWindow is how long a stored response is replayed for the same key.

@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/haryfun/task-management-service/internal/domain"
+	"github.com/haryanapnx/trala/internal/domain"
 )
 
 // requireIdempotencyKey validates that the Idempotency-Key header is present and

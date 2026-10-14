@@ -1,11 +1,11 @@
 basePath: /v1
 definitions:
-  github_com_haryfun_task-management-service_internal_transport_http_dto.AssignTaskRequest:
+  github_com_haryanapnx_trala_internal_transport_http_dto.AssignTaskRequest:
     properties:
       assignee_id:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.CreateStatusRequest:
+  github_com_haryanapnx_trala_internal_transport_http_dto.CreateStatusRequest:
     properties:
       name:
         type: string
@@ -14,7 +14,7 @@ definitions:
       slug:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.CreateTaskRequest:
+  github_com_haryanapnx_trala_internal_transport_http_dto.CreateTaskRequest:
     properties:
       description:
         type: string
@@ -25,14 +25,14 @@ definitions:
       title:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.LoginRequest:
+  github_com_haryanapnx_trala_internal_transport_http_dto.LoginRequest:
     properties:
       email:
         type: string
       password:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.LoginResponse:
+  github_com_haryanapnx_trala_internal_transport_http_dto.LoginResponse:
     properties:
       access_token:
         type: string
@@ -41,7 +41,7 @@ definitions:
       token_type:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.PageMeta:
+  github_com_haryanapnx_trala_internal_transport_http_dto.PageMeta:
     properties:
       limit:
         type: integer
@@ -52,7 +52,7 @@ definitions:
       total_pages:
         type: integer
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.RegisterRequest:
+  github_com_haryanapnx_trala_internal_transport_http_dto.RegisterRequest:
     properties:
       email:
         type: string
@@ -61,14 +61,14 @@ definitions:
       password:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.StatusListResponse:
+  github_com_haryanapnx_trala_internal_transport_http_dto.StatusListResponse:
     properties:
       data:
         items:
-          $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.StatusResponse'
+          $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.StatusResponse'
         type: array
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.StatusResponse:
+  github_com_haryanapnx_trala_internal_transport_http_dto.StatusResponse:
     properties:
       created_at:
         type: string
@@ -85,16 +85,16 @@ definitions:
       updated_at:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.TaskListResponse:
+  github_com_haryanapnx_trala_internal_transport_http_dto.TaskListResponse:
     properties:
       data:
         items:
-          $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse'
+          $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse'
         type: array
       meta:
-        $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.PageMeta'
+        $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.PageMeta'
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse:
+  github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse:
     properties:
       assignee_id:
         type: string
@@ -115,7 +115,7 @@ definitions:
       updated_at:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.UpdateStatusRequest:
+  github_com_haryanapnx_trala_internal_transport_http_dto.UpdateStatusRequest:
     properties:
       name:
         type: string
@@ -124,7 +124,7 @@ definitions:
       slug:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.UpdateTaskRequest:
+  github_com_haryanapnx_trala_internal_transport_http_dto.UpdateTaskRequest:
     properties:
       description:
         type: string
@@ -133,7 +133,7 @@ definitions:
       title:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_dto.UserResponse:
+  github_com_haryanapnx_trala_internal_transport_http_dto.UserResponse:
     properties:
       created_at:
         type: string
@@ -146,7 +146,7 @@ definitions:
       updated_at:
         type: string
     type: object
-  github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody:
+  github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody:
     properties:
       code:
         type: string
@@ -175,18 +175,18 @@ paths:
         name: request
         required: true
         schema:
-          $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.LoginRequest'
+          $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.LoginRequest'
       produces:
       - application/json
       responses:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.LoginResponse'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.LoginResponse'
         "401":
           description: Unauthorized
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
       summary: Log in
       tags:
       - auth
@@ -200,22 +200,22 @@ paths:
         name: request
         required: true
         schema:
-          $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.RegisterRequest'
+          $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.RegisterRequest'
       produces:
       - application/json
       responses:
         "201":
           description: Created
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.UserResponse'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.UserResponse'
         "400":
           description: Bad Request
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
         "409":
           description: Conflict
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
       summary: Register a user
       tags:
       - auth
@@ -227,7 +227,7 @@ paths:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.StatusListResponse'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.StatusListResponse'
       security:
       - BearerAuth: []
       summary: List statuses
@@ -242,22 +242,22 @@ paths:
         name: request
         required: true
         schema:
-          $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.CreateStatusRequest'
+          $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.CreateStatusRequest'
       produces:
       - application/json
       responses:
         "201":
           description: Created
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.StatusResponse'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.StatusResponse'
         "400":
           description: Bad Request
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
         "409":
           description: Conflict
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
       security:
       - BearerAuth: []
       summary: Create a status step
@@ -277,7 +277,7 @@ paths:
         "409":
           description: Conflict
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
       security:
       - BearerAuth: []
       summary: Delete a status step
@@ -297,22 +297,22 @@ paths:
         name: request
         required: true
         schema:
-          $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.UpdateStatusRequest'
+          $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.UpdateStatusRequest'
       produces:
       - application/json
       responses:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.StatusResponse'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.StatusResponse'
         "400":
           description: Bad Request
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
         "404":
           description: Not Found
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
       security:
       - BearerAuth: []
       summary: Update or reorder a status step
@@ -345,7 +345,7 @@ paths:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskListResponse'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskListResponse'
       security:
       - BearerAuth: []
       summary: List tasks
@@ -365,26 +365,26 @@ paths:
         name: request
         required: true
         schema:
-          $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.CreateTaskRequest'
+          $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.CreateTaskRequest'
       produces:
       - application/json
       responses:
         "201":
           description: Created
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse'
         "400":
           description: Bad Request
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
         "403":
           description: Forbidden
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
         "409":
           description: Conflict
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
       security:
       - BearerAuth: []
       summary: Create a task
@@ -404,7 +404,7 @@ paths:
         "404":
           description: Not Found
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
       security:
       - BearerAuth: []
       summary: Delete a task
@@ -423,11 +423,11 @@ paths:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse'
         "404":
           description: Not Found
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
       security:
       - BearerAuth: []
       summary: Get a task
@@ -447,22 +447,22 @@ paths:
         name: request
         required: true
         schema:
-          $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.UpdateTaskRequest'
+          $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.UpdateTaskRequest'
       produces:
       - application/json
       responses:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse'
         "400":
           description: Bad Request
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
         "404":
           description: Not Found
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
       security:
       - BearerAuth: []
       summary: Update a task
@@ -483,22 +483,22 @@ paths:
         name: request
         required: true
         schema:
-          $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.AssignTaskRequest'
+          $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.AssignTaskRequest'
       produces:
       - application/json
       responses:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_dto.TaskResponse'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_dto.TaskResponse'
         "403":
           description: Forbidden
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
         "404":
           description: Not Found
           schema:
-            $ref: '#/definitions/github_com_haryfun_task-management-service_internal_transport_http_response.ErrorBody'
+            $ref: '#/definitions/github_com_haryanapnx_trala_internal_transport_http_response.ErrorBody'
       security:
       - BearerAuth: []
       summary: Assign a task to a team member

@@ -7,11 +7,11 @@ import (
 	"github.com/go-chi/chi/v5"
 	swgui "github.com/swaggest/swgui/v5emb"
 
-	docs "github.com/haryfun/task-management-service/docs/swagger"
-	"github.com/haryfun/task-management-service/internal/domain"
-	"github.com/haryfun/task-management-service/internal/transport/http/handler"
-	"github.com/haryfun/task-management-service/internal/transport/http/middleware"
-	"github.com/haryfun/task-management-service/internal/transport/http/response"
+	docs "github.com/haryanapnx/trala/docs/swagger"
+	"github.com/haryanapnx/trala/internal/domain"
+	"github.com/haryanapnx/trala/internal/transport/http/handler"
+	"github.com/haryanapnx/trala/internal/transport/http/middleware"
+	"github.com/haryanapnx/trala/internal/transport/http/response"
 )
 
 type Deps struct {

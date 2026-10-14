@@ -6,11 +6,11 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/haryfun/task-management-service/internal/domain"
-	"github.com/haryfun/task-management-service/internal/model"
-	"github.com/haryfun/task-management-service/internal/transport/http/dto"
-	"github.com/haryfun/task-management-service/internal/transport/http/middleware"
-	"github.com/haryfun/task-management-service/internal/transport/http/response"
+	"github.com/haryanapnx/trala/internal/domain"
+	"github.com/haryanapnx/trala/internal/model"
+	"github.com/haryanapnx/trala/internal/transport/http/dto"
+	"github.com/haryanapnx/trala/internal/transport/http/middleware"
+	"github.com/haryanapnx/trala/internal/transport/http/response"
 )
 
 // StatusUsecase is the slice of the status use case the handler needs.
